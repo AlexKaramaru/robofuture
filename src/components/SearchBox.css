@@ -1,0 +1,43 @@
+/* SearchBox.css */
+.futuristic-search-container {
+  position: relative;
+}
+
+.futuristic-search-input {
+  padding: 10px 40px 10px 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  color: #333333;
+  width: 250px;
+  transition: background-color 0.3s ease;
+}
+
+.futuristic-search-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: #666666;
+}
+
+.futuristic-search-input:focus {
+  outline: none;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.futuristic-search-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  color: #666666;
+  transition: color 0.3s ease;
+}
+
+.futuristic-search-container:hover .futuristic-search-icon {
+  color: #999999;
+}

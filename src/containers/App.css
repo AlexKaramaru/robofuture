@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "DORIMOUS Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DORIMOUS Bold"), url("DorimousBold-jEO8G.woff") format("woff");
+}
+
+h1 {
+  font-family: "DORIMOUS Bold";
+  font-weight: 200;
+  color: rgb(195, 239, 242);
+}
